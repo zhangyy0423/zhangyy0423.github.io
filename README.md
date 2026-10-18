@@ -26,3 +26,9 @@ git add -A && git commit -m "update: <what>" && git push
 - New section: Industry Experience (GaiaDB/Baidu, GaussDB/Huawei, MCC Baosteel, Hesai)
 - Education & awards merged into CV section
 - Bilingual CV rendered (cv/cv-yuyu-zhang.pdf, 2pp, XeLaTeX ctex)
+
+## v1.3 (2026-10-18)
+- Bilingual: `zh.html` full Chinese version (宋体排版, 六区同构)
+- Cross-switchers: EN header/footer → 中文版; ZH header/footer → EN
+- Status truth sync: C0 已挂出/期刊在审, C1 已提交待挂出, C2/C3 未投稿
+- Patent section: dual-entry (2026 调度专利 + 2019 大学 Ni-BTC 专利 CN110484932A)
