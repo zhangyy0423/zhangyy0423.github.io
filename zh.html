@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>张宇雨 — 独立研究者</title>
+<meta name="description" content="张宇雨：独立研究者，研究方向为预算受限搜索、价值标度律与可复现评估协议。">
+<meta name="author" content="张宇雨">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>YZ</text></svg>">
+<style>
+:root{--ink:#1a1a2e;--accent:#1f4e78;--soft:#f5f7fa;--line:#d8dee6;--gray:#5a6472}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Songti SC","PingFang SC",Georgia,serif;color:var(--ink);line-height:1.75;background:#fff}
+.wrap{max-width:880px;margin:0 auto;padding:0 24px}
+header{padding:72px 0 40px;border-bottom:1px solid var(--line)}
+h1{font-size:2.1rem;font-weight:600;letter-spacing:.5px}
+.role{color:var(--accent);font-size:1.05rem;margin-top:6px}
+.contact{margin-top:18px;font-family:Menlo,Consolas,monospace;font-size:.85rem;color:var(--gray)}
+.contact a{color:var(--accent);text-decoration:none;border-bottom:1px dotted var(--accent)}
+.bio{margin-top:26px;max-width:660px;font-size:1rem}
+.lang-switch{position:absolute;top:84px;right:24px;font-family:Menlo,monospace;font-size:.8rem}
+.lang-switch a{color:var(--accent);text-decoration:none;border:1px solid var(--line);border-radius:3px;padding:2px 10px}
+nav{padding:16px 0;border-bottom:1px solid var(--line);position:sticky;top:0;background:#fff;z-index:9}
+nav a{margin-right:26px;color:var(--ink);text-decoration:none;font-size:.95rem}
+nav a:hover{color:var(--accent)}
+section{padding:44px 0 12px;border-bottom:1px solid var(--line)}
+h2{font-size:1.25rem;color:var(--accent);margin-bottom:20px;font-weight:600}
+.item{margin-bottom:26px}
+.item .title{font-weight:600;font-size:1.02rem}
+.item .title a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--accent)}
+.item .meta{color:var(--gray);font-size:.9rem;margin-top:3px}
+.item .meta .venue{color:var(--accent)}
+.item .note{font-size:.92rem;margin-top:5px;color:#333}
+.tag{display:inline-block;font-family:Menlo,monospace;font-size:.72rem;border:1px solid var(--line);border-radius:3px;padding:1px 7px;margin-left:8px;color:var(--gray);vertical-align:middle}
+.badge-pre{background:#e8f0e8;border-color:#b7d0b7;color:#2a6a2a}
+.badge-sub{background:#fdf3e3;border-color:#e8d0a8;color:#8a6a1f}
+.artifact{margin-bottom:20px;padding:14px 18px;background:var(--soft);border-left:3px solid var(--accent);border-radius:0 4px 4px 0}
+.artifact .t{font-weight:600}
+.artifact .d{font-family:Menlo,monospace;font-size:.8rem;color:var(--gray);margin-top:4px}
+.artifact .d a{color:var(--accent);text-decoration:none}
+.research-line{margin-bottom:18px}
+.research-line .n{font-weight:600;color:var(--accent)}
+footer{padding:36px 0 60px;color:var(--gray);font-size:.85rem}
+footer a{color:var(--accent);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+<div class="lang-switch"><a href="/">EN</a></div>
+<h1>张宇雨</h1>
+<div class="role">独立研究者 · 组合优化与搜索</div>
+<div class="contact">
+<a href="mailto:zhangyy0423@foxmail.com">zhangyy0423@foxmail.com</a> &nbsp;|&nbsp;
+<a href="https://orcid.org/0009-0006-7430-6039" target="_blank">ORCID 0009-0006-7430-6039</a> &nbsp;|&nbsp;
+<a href="https://github.com/zhangyy0423" target="_blank">GitHub</a>
+</div>
+<p class="bio">
+我研究预算受限的搜索为何随问题规模增长而失去价值，以及如何在部署之前让这种失效变得可测量。
+我的工作结合预注册因果实验、校验器支撑的测量协议，以及面向 DAG 工作流调度搜索器的标度律分析。
+</p>
+</header>
+
+<nav>
+<a href="#publications">论文</a>
+<a href="#research">研究</a>
+<a href="#artifacts">科研工件</a>
+<a href="#experience">工作经历</a>
+<a href="#patent">专利</a>
+<a href="#cv">简历</a>
+</nav>
+
+<section id="publications">
+<h2>论文</h2>
+
+<div class="item">
+<div class="title"><a href="https://arxiv.org/abs/2610.12542" target="_blank">Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study</a></div>
+<div class="meta">Yuyu Zhang &middot; <span class="venue">arXiv:2610.12542</span> &middot; 2026-10 &middot; 已挂出 arXiv；Journal of Combinatorial Optimization 在审</div>
+<div class="note">预注册、校验器背书的负结果：当简单得多的方法获得同等搜索预算时，MCTS 调度无可检测的优势——而标准评估协议看不见这一点。配套工件为下方两个 DOI 归档的基准/协议包。</div>
+<span class="tag">arXiv 已挂出</span><span class="tag badge-pre">期刊在审</span>
+</div>
+
+<div class="item">
+<div class="title">The Three Deaths of Search: A Repair-Rate Accounting of Why Budget-Limited Value Collapses</div>
+<div class="meta">Yuyu Zhang &middot; <span class="venue">arXiv 提交号 8237483</span> &middot; 2026-10 &middot; 已提交 arXiv 待挂出；CPAIOR 2027 计划 2026-12 投稿</div>
+<div class="note">在固定可达算子族内，搜索价值随规模按幂律坍缩（双对数斜率 ≈ −1.7），而所有正确性检查持续通过。预注册四臂因果阶梯隔离出解药；修复率账本 η = ρ<sub>d</sub>ρ<sub>eff</sub>f/κ 统一了死因、疗法与边界——并在真实 MIPLIB 实例上验证。</div>
+<span class="tag">arXiv 已提交</span><span class="tag badge-sub">CPAIOR 2027（计划）</span>
+</div>
+
+<div class="item">
+<div class="title">The Line That Was Never Written: A Four-Level Elimination Ladder Localizes an Implementation-Determined Search Signature to a Single Initialization Omission</div>
+<div class="meta">Yuyu Zhang &middot; <span class="venue">未投稿</span> &middot; 2026</div>
+<div class="note">配套根因研究：一条四级排除阶梯将一个工具性（非结构性）搜索病理定位到一行缺失的初始化代码。</div>
+<span class="tag">撰写中</span>
+</div>
+
+<div class="item">
+<div class="title">When Can Structural Repair Transfer Across Domains? A Repair-Rate Accounting of Search-Value Collapse</div>
+<div class="meta">Yuyu Zhang &middot; <span class="venue">未投稿</span> &middot; 2026</div>
+<div class="note">修复率账本下的跨域因子审计（MIP、TSP、Tree-of-Thoughts、AlphaZero 探针）：结构修复何时可迁移、何时前瞻性地失败。</div>
+<span class="tag">撰写中</span>
+</div>
+
+<div class="item">
+<div class="title"><a href="https://doi.org/10.11868/j.issn.1001-4381.2020.000244" target="_blank">Ni-BTC/RGO复合材料的制备及其电化学性能</a></div>
+<div class="meta">马锐, <b>张宇雨</b>, 王菲菲, 刘琪瑶, 李嘉琪, 魏金枝 &middot; <span class="venue">《材料工程》</span> 2022, 50(6): 124–130 &middot; DOI 10.11868/j.issn.1001-4381.2020.000244</div>
+<div class="note">电化学法合成石墨烯基镍金属有机骨架复合材料用于超级电容器（0.5 A/g 下比电容 468.72 F/g）。本科期间科研，第二作者。</div>
+<span class="tag">期刊论文</span><span class="tag">本科</span>
+</div>
+
+</section>
+
+<section id="research">
+<h2>研究</h2>
+<p style="max-width:680px;margin-bottom:22px">
+我的研究计划围绕一个连贯的问题——<b>搜索何时能回本？</b>——以预注册、可证伪的测量为工具展开：
+</p>
+<div class="research-line"><span class="n">1 · 评估协议。</span> 建立安慰剂标准：等预算对照、独立校验器、预注册估计量。<span style="color:var(--gray)">（C0，DOI-2）</span></div>
+<div class="research-line"><span class="n">2 · 主定律。</span> 测量现象本身：预算受限搜索价值随规模幂律坍缩；对死因分类（可达性稀释、成本膨胀、密度饥饿）。<span style="color:var(--gray)">（C1）</span></div>
+<div class="research-line"><span class="n">3 · 根因。</span> 区分结构性失败与工具性失败——包括将一个搜索签名溯源到一行缺失的初始化。<span style="color:var(--gray)">（C2）</span></div>
+<div class="research-line"><span class="n">4 · 迁移。</span> 在统一修复率记账下追问结构修复何时能跨域迁移。<span style="color:var(--gray)">（C3）</span></div>
+</section>
+
+<section id="artifacts">
+<h2>科研工件 <span style="font-size:.8rem;color:var(--gray);font-weight:400">（DOI 归档，可引用）</span></h2>
+
+<div class="artifact">
+<div class="t">DAG 预算调度基准套件</div>
+<div class="d">DOI <a href="https://doi.org/10.5281/zenodo.22929494" target="_blank">10.5281/zenodo.22929494</a> · 确定性实例生成器 + 四臂调度器套件（字节级精确重放）</div>
+</div>
+
+<div class="artifact">
+<div class="t">启发式评估审计协议</div>
+<div class="d">DOI <a href="https://doi.org/10.5281/zenodo.22930513" target="_blank">10.5281/zenodo.22930513</a> · 安慰剂标准：等预算安慰剂臂、独立校验器、预注册估计量</div>
+</div>
+</section>
+
+<section id="experience">
+<h2>工作经历</h2>
+
+<div class="item">
+<div class="title">数据库内核开发工程师 — 百度 GaiaDB <span style="font-weight:400;color:var(--gray)">（上海，2025.04–至今）</span></div>
+<div class="note">
+企业级 AI 数据平台（Foundry 类）：数据接入、本体/语义建模、工作流编排、工具调用与权限治理——构建从数据到分析再到可控操作的闭环。<br>
+存储组：独立设计并落地日志服务容错改进方案，同步窗口从 6&nbsp;GB 提升至 100&nbsp;GB，支持慢节点约 30 分钟不卡写；参与国测项目。
+</div>
+</div>
+
+<div class="item">
+<div class="title">数据库内核开发工程师 — 华为云 GaussDB <span style="font-weight:400;color:var(--gray)">（2023.03–2025.03）</span></div>
+<div class="note">
+执行器组：TPC-H 打榜的向量化执行引擎优化（Numeric/条件表达式/算子；TPC-H 33x/100x 整体提升 12%–15%，算术路径约 50%）。<br>
+M 兼容组（金融 MySQL 替换）：类型/运算符/函数兼容；内核代码 8k+、用例 10w+、问题单 50+。<br>
+Hackathon 软件挑战赛华为一等奖（大规模分布式任务调度，MCTS 联合调度算法）。
+</div>
+</div>
+
+<div class="item">
+<div class="title">能环专员 — 中冶宝钢炼铁 <span style="font-weight:400;color:var(--gray)">（上海，2021.05–2023.03）</span></div>
+<div class="note">宝钢炼铁区域除尘节能降耗、集中集控与环保智慧运营平台建设。</div>
+</div>
+
+<div class="item">
+<div class="title">软件实习工程师 — 禾赛光电 <span style="font-weight:400;color:var(--gray)">（上海，2018）</span></div>
+<div class="note">Qt 开发 Pandar40 激光雷达固件升级工具。</div>
+</div>
+</section>
+
+<section id="patent">
+<h2>专利</h2>
+<div class="item">
+<div class="title">一种窗口化大邻域结构修复的调度方法及装置 <span style="font-weight:400;color:var(--gray)">（国家发明专利申请）</span></div>
+<div class="meta">申请号 <span style="font-family:Menlo,monospace">2026114949359</span> · 2026-09 申请 · 已受理，实质审查中</div>
+<div class="note">消除上述修复率研究计划中所记录规模坍缩的结构可达修复方法（wlns W 阶梯）。</div>
+</div>
+<div class="item">
+<div class="title"><a href="https://patents.google.com/patent/CN110484932A/zh" target="_blank">一种电化学合成金属有机框架材料 Ni-BTC 的方法</a></div>
+<div class="meta">CN <span style="font-family:Menlo,monospace">110484932A</span>（申请号 <span style="font-family:Menlo,monospace">201910830552.8</span>）· 2019-09 申请 · 申请人：哈尔滨理工大学</div>
+<div class="note">上述本科复合材料研究所对应的 Ni-BTC 电化学合成路线。</div>
+</div>
+</section>
+
+<section id="cv">
+<h2>教育与简历</h2>
+<p style="margin-bottom:10px"><b>环境工程 本科</b>，哈尔滨理工大学（2016–2020）· 专业前 5% · 全国大学生数学建模省一等奖、中国大学生博弈大赛二等奖、全国大学生数学竞赛三等奖 · 省级大创项目负责人</p>
+<p>下载简历：<a href="cv/cv-yuyu-zhang.pdf">cv-yuyu-zhang.pdf</a> <span style="color:var(--gray);font-size:.9rem">（2026-10 更新）</span></p>
+</section>
+
+<footer>
+<p>&copy; 2026 张宇雨 · 独立研究，于个人时间与设备上独立完成。</p>
+<p style="margin-top:6px">联系：<a href="mailto:zhangyy0423@foxmail.com">zhangyy0423@foxmail.com</a> &nbsp;|&nbsp; <a href="/">English version</a></p>
+</footer>
+
+</div>
+</body>
+</html>
