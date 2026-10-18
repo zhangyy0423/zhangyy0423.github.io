@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yuyu Zhang — Independent Researcher</title>
+<meta name="description" content="Yuyu Zhang: independent researcher working on budget-limited search, value scaling laws, and reproducible evaluation protocols for combinatorial optimization.">
+<meta name="author" content="Yuyu Zhang">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>YZ</text></svg>">
+<style>
+:root{--ink:#1a1a2e;--accent:#1f4e78;--soft:#f5f7fa;--line:#d8dee6;--gray:#5a6472}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Georgia,'Times New Roman',serif;color:var(--ink);line-height:1.65;background:#fff}
+.wrap{max-width:880px;margin:0 auto;padding:0 24px}
+header{padding:72px 0 40px;border-bottom:1px solid var(--line)}
+h1{font-size:2.1rem;font-weight:600;letter-spacing:.5px}
+.role{color:var(--accent);font-size:1.05rem;margin-top:6px;font-style:italic}
+.contact{margin-top:18px;font-family:Menlo,Consolas,monospace;font-size:.85rem;color:var(--gray)}
+.contact a{color:var(--accent);text-decoration:none;border-bottom:1px dotted var(--accent)}
+.bio{margin-top:26px;max-width:640px;font-size:1rem}
+nav{padding:16px 0;border-bottom:1px solid var(--line);position:sticky;top:0;background:#fff;z-index:9}
+nav a{margin-right:26px;color:var(--ink);text-decoration:none;font-size:.95rem}
+nav a:hover{color:var(--accent)}
+section{padding:44px 0 12px;border-bottom:1px solid var(--line)}
+h2{font-size:1.25rem;color:var(--accent);margin-bottom:20px;font-weight:600}
+h2 .en{letter-spacing:.3px}
+.item{margin-bottom:26px}
+.item .title{font-weight:600;font-size:1.02rem}
+.item .title a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--accent)}
+.item .meta{color:var(--gray);font-size:.9rem;margin-top:3px}
+.item .meta .venue{color:var(--accent)}
+.item .note{font-size:.92rem;margin-top:5px;color:#333}
+.tag{display:inline-block;font-family:Menlo,monospace;font-size:.72rem;border:1px solid var(--line);border-radius:3px;padding:1px 7px;margin-left:8px;color:var(--gray);vertical-align:middle}
+.badge-pre{background:#e8f0e8;border-color:#b7d0b7;color:#2a6a2a}
+.badge-sub{background:#fdf3e3;border-color:#e8d0a8;color:#8a6a1f}
+.artifact{margin-bottom:20px;padding:14px 18px;background:var(--soft);border-left:3px solid var(--accent);border-radius:0 4px 4px 0}
+.artifact .t{font-weight:600}
+.artifact .d{font-family:Menlo,monospace;font-size:.8rem;color:var(--gray);margin-top:4px}
+.artifact .d a{color:var(--accent);text-decoration:none}
+.research-line{margin-bottom:18px}
+.research-line .n{font-weight:600;color:var(--accent)}
+footer{padding:36px 0 60px;color:var(--gray);font-size:.85rem}
+footer a{color:var(--accent);text-decoration:none}
+@media print{nav{display:none}section{padding:18px 0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+<h1>Yuyu Zhang</h1>
+<div class="role">Independent Researcher &middot; Combinatorial Optimization &amp; Search</div>
+<div class="contact">
+<a href="mailto:zhangyy0423@foxmail.com">zhangyy0423@foxmail.com</a> &nbsp;|&nbsp;
+<a href="https://orcid.org/0009-0006-7430-6039" target="_blank">ORCID 0009-0006-7430-6039</a> &nbsp;|&nbsp;
+<a href="https://github.com/zhangyy0423" target="_blank">GitHub</a> &nbsp;|&nbsp;
+<a href="https://arxiv.org/a/zhang_y_1" target="_blank">arXiv</a>
+</div>
+<p class="bio">
+I study why budget-limited search loses its value as problem scale grows — and how to make
+that failure measurable before deployment. My work combines preregistered causal experiments,
+verifier-backed measurement protocols, and scaling-law analysis of search-based schedulers
+for DAG-structured workloads.
+</p>
+</header>
+
+<nav>
+<a href="#publications">Publications</a>
+<a href="#research">Research</a>
+<a href="#artifacts">Artifacts</a>
+<a href="#patent">Patent</a>
+<a href="#cv">CV</a>
+</nav>
+
+<section id="publications">
+<h2><span class="en">Publications</span></h2>
+
+<div class="item">
+<div class="title"><a href="https://arxiv.org/abs/2610.12542" target="_blank">Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study</a></div>
+<div class="meta">Yuyu Zhang &middot; <span class="venue">arXiv:2610.12542</span> &middot; Oct 2026 &middot; under review (Journal of Heuristics track)</div>
+<div class="note">A preregistered, verifier-backed negative result: when a much simpler method is given the same search effort, MCTS scheduling shows no detectable advantage — and standard evaluation protocols cannot see it. Companion artifacts: two DOI-archived benchmark/protocol packages below.</div>
+<span class="tag">preprint</span><span class="tag badge-pre">under review</span>
+</div>
+
+<div class="item">
+<div class="title"><a href="https://arxiv.org/abs/2610.12542" target="_blank">The Three Deaths of Search: A Repair-Rate Accounting of Why Budget-Limited Value Collapses</a></div>
+<div class="meta">Yuyu Zhang &middot; <span class="venue">arXiv preprint</span> &middot; Oct 2026 &middot; CPAIOR 2027 submission</div>
+<div class="note">Within fixed-reach operator families, search value collapses as a power law in scale (log–log slope ≈ −1.7) while every correctness check keeps passing. A preregistered four-arm causal ladder isolates the remedy; a repair-rate ledger η = ρ<sub>d</sub>ρ<sub>eff</sub>f/κ unifies the deaths, the remedies, and the boundaries — validated on real MIPLIB instances.</div>
+<span class="tag">preprint</span><span class="tag badge-sub">CPAIOR 2027</span>
+</div>
+
+<div class="item">
+<div class="title">The Line That Was Never Written: A Four-Level Elimination Ladder Localizes an Implementation-Determined Search Signature to a Single Initialization Omission</div>
+<div class="meta">Yuyu Zhang &middot; <span class="venue">in preparation</span> &middot; 2026</div>
+<div class="note">Root-cause study companion: an instrumental (non-structural) search pathology traced to a single missing initialization line via a four-level elimination ladder.</div>
+<span class="tag">preparing</span>
+</div>
+
+<div class="item">
+<div class="title">When Can Structural Repair Transfer Across Domains? A Repair-Rate Accounting of Search-Value Collapse</div>
+<div class="meta">Yuyu Zhang &middot; <span class="venue">in preparation</span> &middot; 2026</div>
+<div class="note">Cross-domain factor audits (MIP, TSP, Tree-of-Thoughts, AlphaZero probes) under the repair-rate ledger: where structural repair transfers, and where it fails prospectively.</div>
+<span class="tag">preparing</span>
+</div>
+
+</section>
+
+<section id="research">
+<h2>Research</h2>
+<p style="max-width:660px;margin-bottom:22px">
+My research program is a single, connected question — <b>when does search pay for itself?</b> —
+studied with the instruments of preregistered, falsifiable measurement:
+</p>
+<div class="research-line"><span class="n">1 &middot; Evaluation protocol.</span> Establish the placebo standard: equal-budget controls, independent verifiers, preregistered estimands. <span style="color:var(--gray)">(C0, DOI-2)</span></div>
+<div class="research-line"><span class="n">2 &middot; The law.</span> Measure the phenomenon itself: budget-limited search value collapses as a power law in scale; classify its causes (reach dilution, cost inflation, density starvation). <span style="color:var(--gray)">(C1)</span></div>
+<div class="research-line"><span class="n">3 &middot; Root cause.</span> Separate structural failure from instrumental failure — including a search signature traced to one missing initialization line. <span style="color:var(--gray)">(C2)</span></div>
+<div class="research-line"><span class="n">4 &middot; Transfer.</span> Ask when structural repair crosses domain boundaries, under a unified repair-rate accounting. <span style="color:var(--gray)">(C3)</span></div>
+</section>
+
+<section id="artifacts">
+<h2>Artifacts <span style="font-size:.8rem;color:var(--gray);font-weight:400">(DOI-archived, citable)</span></h2>
+
+<div class="artifact">
+<div class="t">DAG Budget Scheduling Benchmark Suite</div>
+<div class="d">DOI <a href="https://doi.org/10.5281/zenodo.22929494" target="_blank">10.5281/zenodo.22929494</a> &middot; deterministic instance generators + four-arm scheduler suite (byte-exact replay)</div>
+</div>
+
+<div class="artifact">
+<div class="t">Heuristic Evaluation Audit Protocol</div>
+<div class="d">DOI <a href="https://doi.org/10.5281/zenodo.22930513" target="_blank">10.5281/zenodo.22930513</a> &middot; the placebo standard: equal-budget placebo arm, independent verifier, preregistered estimands</div>
+</div>
+</section>
+
+<section id="patent">
+<h2>Patent</h2>
+<div class="item">
+<div class="title">Scheduling method and apparatus for windowed large-neighborhood structural repair <span style="font-weight:400;color:var(--gray)">(CNIPA application)</span></div>
+<div class="meta">Application No. <span style="font-family:Menlo,monospace">2026114949359</span> &middot; filed Sep 2026 &middot; accepted &amp; under substantive examination (China)</div>
+<div class="note">The structural-reach repair method (wlns W-ladder) that eliminates the scale collapse documented in the repair-rate program above.</div>
+</div>
+</section>
+
+<section id="cv">
+<h2>CV</h2>
+<p>Download: <a href="cv/cv-yuyu-zhang.pdf">cv-yuyu-zhang.pdf</a> <span style="color:var(--gray);font-size:.9rem">(updated Oct 2026)</span></p>
+</section>
+
+<footer>
+<p>&copy; 2026 Yuyu Zhang &middot; independent research, conducted independently on personal time and equipment.</p>
+<p style="margin-top:6px">Contact: <a href="mailto:zhangyy0423@foxmail.com">zhangyy0423@foxmail.com</a></p>
+</footer>
+
+</div>
+</body>
+</html>
