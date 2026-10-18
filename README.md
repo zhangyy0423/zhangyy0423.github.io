@@ -20,3 +20,9 @@ git add -A && git commit -m "update: <what>" && git push
 - Patent: CNIPA 2026114949359
 - ORCID: 0009-0006-7430-6039
 - Email: zhangyy0423@foxmail.com
+
+## v1.1 (2026-10-18)
+- Publications +1: university-era journal paper (JME 2022, 2nd author, DOI 10.11868/j.issn.1001-4381.2020.000244)
+- New section: Industry Experience (GaiaDB/Baidu, GaussDB/Huawei, MCC Baosteel, Hesai)
+- Education & awards merged into CV section
+- Bilingual CV rendered (cv/cv-yuyu-zhang.pdf, 2pp, XeLaTeX ctex)
