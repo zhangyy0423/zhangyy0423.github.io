@@ -1,0 +1,71 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[UTF8]{ctex}
+\usepackage[margin=1.6cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue}
+\setlist{nosep,leftmargin=1.4em}
+\usepackage{parskip}
+\renewcommand{\thesection}{}
+\pagestyle{empty}
+\begin{document}
+\begin{center}{\LARGE\bfseries 张宇雨 / Yuyu Zhang}\\[2pt]
+{\small 电话 136-0165-4345 ｜ \href{mailto:zhangyy0423@foxmail.com}{zhangyy0423@foxmail.com} ｜ 上海 ｜ \url{https://zhangyy0423.github.io} ｜ ORCID 0009-0006-7430-6039}\\[2pt]
+{\small\itshape 求职意向：AI 数据平台 / 数据库内核开发 / 存储引擎 / 多模态数据系统}\end{center}
+
+\section{个人优势}
+\begin{itemize}
+\item 6 年+ 数据库内核与后端工程经验：GaussDB、GaiaDB 底层系统实践 + 企业级 AI 数据平台建设，能从数据底座、服务架构与产品闭环理解问题。
+\item \textbf{独立科研产出}（2026，业余时间）：预注册因果研究方法，4 篇论文（1 篇 arXiv 在审、1 篇 CPAIOR 2027 投稿、2 篇撰写中）、2 个 DOI 工件、1 项发明专利（实审中）。
+\item 近期聚焦 Foundry 类 AI 数据平台：数据接入、语义建模（Ontology）、任务/工作流编排、工具调用、权限治理与审计。
+\item 熟悉 C/C++、Linux 调试与性能优化、数据库执行器/存储/兼容框架；复杂系统问题定位与稳定交付。
+\item 熟练使用 Codex、Claude Code 辅助复杂代码理解、重构、测试补齐与文档沉淀，保持人工复核闭环。
+\end{itemize}
+
+\section{工作经历}
+\textbf{百度 GaiaDB 数据库 ｜ 数据库内核开发工程师（存储组）}\hfill 2025.04--至今\par
+\begin{itemize}
+\item 企业级 AI 数据平台开发：数据接入、语义层、任务编排、上下文管理、工具调用、权限治理闭环。
+\item \textbf{独立设计 Log Service 容错改进方案}：同步窗口 6GB$\to$100GB，支持慢节点约 30 分钟不卡写，提升写入链路稳定性。
+\item 参与 GaiaDB 国测项目，获百度小赞。
+\end{itemize}
+\textbf{华为云 GaussDB 数据库 ｜ 数据库内核开发工程师}\hfill 2023.03--2025.03\par
+\begin{itemize}
+\item 执行器组：TPCH 打榜，向量化执行引擎优化（Numeric/条件表达式/算子），TPCH-33x/100x 整体提升 12\%--15\%，算术运算单项约 50\%。
+\item M 兼容组骨干：类型/运算符/函数兼容，支撑金融企业 MySQL 替换；内核代码 8k+、用例 10w+、问题单 50+。
+\item \textbf{Hackathon 软件挑战赛华为一等奖}（大规模分布式任务调度，MCTS 联合调度算法）；两次部门金 cloud 奖。
+\end{itemize}
+\textbf{上海中冶环保（宝钢炼铁）｜ 能环专员}\hfill 2021.05--2023.03\par
+\begin{itemize}\item 除尘节能降耗、集中集控及环保智慧运营平台建设；现场业务理解与跨团队协同。\end{itemize}
+\textbf{上海禾赛光电 ｜ 软件实习工程师}\hfill 2018\par
+\begin{itemize}\item Qt 开发 Pandar40 雷达固件升级工具。\end{itemize}
+
+\section{独立科研（2026，业余时间，个人设备）}
+\textbf{论文}
+\begin{enumerate}
+\item \textbf{Equal-Budget MCTS versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study.} arXiv:2610.12542（2026-10，在审）。预注册可复现负结果 + 开放评估协议。
+\item \textbf{The Three Deaths of Search: A Repair-Rate Accounting of Why Budget-Limited Value Collapses.} arXiv preprint（2026-10，CPAIOR 2027 投稿）。搜索价值幂律坍缩（$\beta\approx-1.7$）+ 预注册四臂因果阶梯 + 修复率记账 $\eta=\rho_d\rho_{\mathrm{eff}}f/\kappa$；真实 MIPLIB 验证。
+\item \textbf{The Line That Was Never Written}（实现级搜索签名根因研究）. In preparation, 2026.
+\item \textbf{When Can Structural Repair Transfer Across Domains?}（跨域因子审计）. In preparation, 2026.
+\end{enumerate}
+\textbf{DOI 工件（Zenodo）}：DAG Budget Scheduling Benchmark Suite — 10.5281/zenodo.22929494；Heuristic Evaluation Audit Protocol — 10.5281/zenodo.22930513\par
+\textbf{发明专利}：一种窗口化大邻域结构修复的调度方法及装置. CNIPA 2026114949359（2026-09 受理，实审中）.
+
+\section{大学期间科研}
+\begin{itemize}
+\item \textbf{期刊论文}：马锐, \textbf{张宇雨}, 王菲菲, 刘琪瑶, 李嘉琪, 魏金枝$^*$. Ni-BTC/RGO 复合材料的制备及其电化学性能. \textit{材料工程} 2022, 50(6): 124--130. DOI 10.11868/j.issn.1001-4381.2020.000244（第二作者；比电容 468.72\,F/g@0.5\,A/g）.
+\item \textbf{专利}：CN201910830552.8（2019 申请）。
+\item \textbf{项目}：省级大学生创新创业项目负责人。
+\item \textbf{竞赛}：全国大学生数学建模省一等奖；中国大学生博弈大赛二等奖；全国大学生数学竞赛三等奖。
+\end{itemize}
+
+\section{主要技术}
+AI 与数据平台（Ontology/编排/工具调用/治理审计）｜ 数据库内核（执行器/向量化/类型系统/兼容框架/日志服务）｜ C/C++ / Linux（gdb/性能分析）｜ 存储与可靠性（日志复制/同步窗口/慢节点/故障恢复）｜ LLM 应用（Prompt/RAG/Tool Calling/评测）｜ AI 工具链（Codex/Claude Code/Copilot）｜ Git/CMake/Docker/valgrind
+
+\section{教育背景}
+\textbf{哈尔滨理工大学 ｜ 环境工程 本科}\hfill 2016.09--2020.06\par
+GPA 3.32/5.0（专业前 5\%）；校优秀毕业生、三好学生、优秀团员、奖学金若干。
+
+\section{证书}
+软考（中级）｜ 华为软件开发能力认证（专业级）｜ CET-4
+\end{document}
