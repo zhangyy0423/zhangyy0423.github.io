@@ -9,7 +9,7 @@
 ## 个人优势
 
 - 6 年+ 数据库内核与后端工程经验：GaussDB、GaiaDB 底层系统实践 + 企业级 AI 数据平台建设，能从数据底座、服务架构和产品功能闭环理解问题。
-- **独立科研产出**（2026，personal time）：预注册因果研究方法 + 4 篇论文（1 篇已发 arXiv 在审、1 篇 CPAIOR 2027 投稿、2 篇 in preparation）+ 2 个 DOI 工件 + 1 项发明专利（实审中）。
+- **独立科研产出**（2026，personal time）：预注册因果研究方法 + 4 篇论文（1 篇 arXiv 已挂出（期刊在审）、1 篇 arXiv 已提交待挂出（CPAIOR 2027 计划投稿）、2 篇撰写中未投稿）+ 2 个 DOI 工件 + 1 项发明专利（实审中）。
 - 近期聚焦 Foundry 类 AI 数据平台：数据接入、语义建模（Ontology）、任务/工作流编排、工具调用、权限治理与审计。
 - 熟悉 C/C++、Linux 调试、性能优化、数据库执行器/存储/兼容框架；复杂系统问题定位与稳定交付经验。
 - 熟练使用 Codex、Claude Code 辅助复杂代码理解、重构、测试补齐与文档沉淀，保持人工复核闭环。
@@ -35,10 +35,10 @@
 ## 独立科研（2026，personal time and equipment）
 
 **论文（4 篇）**
-1. **Equal-Budget MCTS versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study.** arXiv:2610.12542（2026-10，在审）。预注册可复现负结果 + 开放评估协议。
-2. **The Three Deaths of Search: A Repair-Rate Accounting of Why Budget-Limited Value Collapses.** arXiv preprint（2026-10，CPAIOR 2027 投稿）。预算受限搜索价值幂律坍缩（斜率≈−1.7）+ 预注册四臂因果阶梯 + 修复率记账 η=ρd·ρeff·f/κ；真实 MIPLIB 实例验证。
-3. **The Line That Was Never Written: A Four-Level Elimination Ladder Localizes an Implementation-Determined Search Signature to a Single Initialization Omission.** In preparation（2026）。
-4. **When Can Structural Repair Transfer Across Domains? A Repair-Rate Accounting of Search-Value Collapse.** In preparation（2026）。
+1. **Equal-Budget MCTS versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study.** arXiv:2610.12542（2026-10 已挂出；Journal of Combinatorial Optimization 在审）。预注册可复现负结果 + 开放评估协议。
+2. **The Three Deaths of Search: A Repair-Rate Accounting of Why Budget-Limited Value Collapses.** arXiv 已提交（submission 8237483，待挂出；CPAIOR 2027 计划 2026-12 投稿）。预算受限搜索价值幂律坍缩（斜率≈−1.7）+ 预注册四臂因果阶梯 + 修复率记账 η=ρd·ρeff·f/κ；真实 MIPLIB 实例验证。
+3. **The Line That Was Never Written: A Four-Level Elimination Ladder Localizes an Implementation-Determined Search Signature to a Single Initialization Omission.** 撰写中，未投稿（2026）。
+4. **When Can Structural Repair Transfer Across Domains? A Repair-Rate Accounting of Search-Value Collapse.** 撰写中，未投稿（2026）。
 
 **DOI 工件（Zenodo，可引用）**
 - DAG Budget Scheduling Benchmark Suite — DOI 10.5281/zenodo.22929494
